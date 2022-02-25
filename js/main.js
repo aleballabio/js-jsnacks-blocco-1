@@ -97,6 +97,8 @@ for (let numero = 0; numero < 6; numero++) {
     }
 }
 */
+
+/*Snack6
 const text = document.querySelector('.stamp');
 const numero = parseInt(prompt('Inserisci un numero di 4 cifre'));
 
@@ -109,3 +111,5 @@ for (let time = 0; time < arrNumberFinal.length; time++) {
 }
 
 text.innerHTML = sum;
+
+*/
