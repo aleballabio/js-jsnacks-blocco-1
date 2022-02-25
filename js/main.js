@@ -58,7 +58,7 @@ text.innerHTML = somma;
 
 */
 
-const stamp = document.querySelector('.stamp');
+/* const stamp = document.querySelector('.stamp');
 
 const arrInvitati = [
     'Marcolino',
@@ -82,3 +82,30 @@ for (let invitato = 0; invitato < arrInvitati.length; invitato++) {
         break;
     }
 }
+*/
+
+
+/*Snack 5
+arrDispari = [];
+
+for (let numero = 0; numero < 6; numero++) {
+    const numeroUtente = parseInt(prompt('Inserisci un numero'));
+
+    if (numeroUtente % 2 === 1) {
+        arrDispari.push(numeroUtente);
+        console.log(arrDispari);
+    }
+}
+*/
+const text = document.querySelector('.stamp');
+const numero = parseInt(prompt('Inserisci un numero di 4 cifre'));
+
+const arrNumberSplit = numero.toString().split('');
+const arrNumberFinal = arrNumberSplit.map(Number);
+let sum = 0;
+
+for (let time = 0; time < arrNumberFinal.length; time++) {
+    sum = sum + arrNumberFinal[time];
+}
+
+text.innerHTML = sum;
