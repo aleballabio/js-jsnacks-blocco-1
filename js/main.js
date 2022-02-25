@@ -1,3 +1,6 @@
+
+/*Snack 2
+
 let utente1 = prompt('Inserisci una parola');
 let numbers = /[0-9]/g;
 
@@ -18,8 +21,6 @@ else {
 
     else {
         const text = document.querySelector('.stamp');
-        console.log(utente1);
-        console.log(utente2);
 
         if (utente1.length > utente2.length) {
             text.innerHTML += (utente1 + ' ' + utente2);
@@ -34,5 +35,26 @@ else {
         }
     }
 }
+*/
 
+/*Snack 3
+
+const text = document.querySelector('.stamp');
+
+let arrNumbers = [];
+let somma = 0
+
+for (let numero = 0; numero < 10; numero++) {
+    const utenteNumero = parseInt(prompt('Inserisci un numero'));
+    //Parse Int per i numeri e somme
+    arrNumbers.push(utenteNumero);
+}
+
+for (let time = 0; time < arrNumbers.length; time++) {
+    somma = somma + arrNumbers[time];
+}
+
+text.innerHTML = somma;
+
+/*
 
