@@ -110,6 +110,36 @@ for (let time = 0; time < arrNumberFinal.length; time++) {
     sum = sum + arrNumberFinal[time];
 }
 
+La stringa è vista come un'array
+
 text.innerHTML = sum;
+
+*/
+
+
+/*Snack 6 ( consegna in modo diverso)
+
+const text = document.querySelector('.stamp');
+const arrNumeri = [];
+const times = 10
+let i = 0
+let sum = 0
+let average = 0
+
+while (arrNumeri.length < times) {
+    let NumeroRandom = Math.floor(Math.random() * 11);
+    arrNumeri.push(NumeroRandom);
+    sum += arrNumeri[i];
+    average = (sum / arrNumeri.length);
+    i++;
+    console.log(NumeroRandom);
+}
+
+text.innerHTML += sum;
+text.innerHTML += (" " + average);
+
+console.log(arrNumeri)
+console.log(sum);
+console.log(average);
 
 */
