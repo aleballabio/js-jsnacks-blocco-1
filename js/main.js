@@ -143,3 +143,46 @@ console.log(sum);
 console.log(average);
 
 */
+
+
+
+/*
+// Snack 2.1
+
+const text = document.querySelector('.stamp');
+let sum = 0;
+
+//For
+
+/*
+
+for (let times = 0; times < 5; times++) {
+    const numeroUtente = parseInt(prompt("Inserisci un numero"));
+    sum += numeroUtente;
+}
+
+text.innerHTML = sum
+
+*/
+
+
+
+//While
+
+/*
+
+let times = 0
+
+while (times < 5) {
+    const numeroUtente = parseInt(prompt("Inserisci un numero"));
+    sum += numeroUtente
+    times++
+}
+
+text.innerHTML = sum
+
+*/
+
+
+
+
