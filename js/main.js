@@ -184,8 +184,8 @@ text.innerHTML = sum
 */
 
 
-/* 
 
+/*
 //Snack 2.2
 
 const text = document.querySelector('.stamp');
@@ -196,7 +196,7 @@ if (numeroR % 2 == 0) {
 }
 
 else if (numeroR % 2 == 1) {
-    const numeroR2 = Math.floor(Math.random() * 10001);
+    const numeroR2 = numeroR + 1;
     text.innerHTML = numeroR2;
 }
 
