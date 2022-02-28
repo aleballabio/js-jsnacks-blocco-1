@@ -183,7 +183,10 @@ text.innerHTML = sum
 
 */
 
-/* Snack 2.2
+
+/* 
+
+//Snack 2.2
 
 const text = document.querySelector('.stamp');
 const numeroR = Math.floor(Math.random() * 10001);
@@ -200,3 +203,47 @@ else if (numeroR % 2 == 1) {
 */
 
 
+
+/*
+//Snack 2.3
+
+const text = document.querySelector('.stamp');
+const arrName = [
+    "Maria",
+    "Nicoletta",
+    "Graziosa",
+    "Priscilla",
+    "Stefania",
+    "Camilla",
+    "Lea",
+    "Alessandro",
+    "Camillo",
+    "Dario",
+    "Aldo",
+    "Stefano"]
+
+const arrSurName = [
+    "Malcontenta",
+    "Peri",
+    "Pamelta",
+    "Sposi",
+    "Goccia",
+    "Asso",
+    "Pomodoro",
+    "Mais",
+    "Astuti",
+    "Giordano",
+    "Taccuino"]
+
+let times = 0;
+
+const arrLista = []
+
+while (times < 3) {
+    let Invitato = arrName[Math.floor(Math.random() * arrName.length)] + " " + arrSurName[Math.floor(Math.random() * arrSurName.length)]
+    arrLista.push(Invitato);
+    times++;
+    text.innerHTML += Invitato + "<br>";
+}
+
+*/
