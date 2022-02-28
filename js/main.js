@@ -183,6 +183,20 @@ text.innerHTML = sum
 
 */
 
+/* Snack 2.2
 
+const text = document.querySelector('.stamp');
+const numeroR = Math.floor(Math.random() * 10001);
+
+if (numeroR % 2 == 0) {
+    text.innerHTML = numeroR;
+}
+
+else if (numeroR % 2 == 1) {
+    const numeroR2 = Math.floor(Math.random() * 10001);
+    text.innerHTML = numeroR2;
+}
+
+*/
 
 
