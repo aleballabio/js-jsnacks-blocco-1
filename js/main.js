@@ -73,7 +73,6 @@ let utente = prompt('Come ti chiami?');
 
 for (let invitato = 0; invitato < arrInvitati.length; invitato++) {
     if (utente.toLowerCase() === arrInvitati[invitato].toLowerCase()) {
-        arrInvitati.pop(utente);
         arrArrivati.push(utente);
         stamp.innerHTML += (utente + ' ' + 'è arrivato alla festa. <br> Benvenuto!');
         break;
@@ -93,9 +92,12 @@ for (let numero = 0; numero < 6; numero++) {
 
     if (numeroUtente % 2 === 1) {
         arrDispari.push(numeroUtente);
-        console.log(arrDispari);
     }
 }
+
+console.log(arrDispari);
+
+
 */
 
 /*Snack6
